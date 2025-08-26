@@ -1,0 +1,40 @@
+/* Testimonials.module.css */
+.section {
+  padding: 16px 16px 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid rgba(0,0,0,0.08);
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 36px rgba(0,0,0,0.08);
+  border-color: rgba(0,0,0,0.12);
+}
+
+.stars {
+  color: #f59e0b;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-weight: 700;
+  margin-top: 8px;
+  color: #111827;
+}
+
+.text {
+  color: #374151;
+} 

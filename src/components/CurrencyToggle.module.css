@@ -1,0 +1,13 @@
+/* CurrencyToggle.module.css */
+.button {
+  appearance: none;
+  border: 1px solid #e5e7eb;
+  color: #111827;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.button:hover {
+  border-color: #d1d5db;
+} 
